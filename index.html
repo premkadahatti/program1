@@ -1,0 +1,11 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html>
+<body style="background:black; display:flex; justify-content:center; align-items:center; height:100vh; color:white; font-size:4em; font-family:sans-serif;">
+<h1 id="text">Happy Teachers Day</h1>
+<script>
+let t = document.getElementById("text");
+let c = ["red","orange","yellow","green","blue","violet","pink","cyan"];
+setInterval(()=>{ t.style.color = c[Math.floor(Math.random()*c.length)]; },300);
+</script>
+</body>
+</html>
